@@ -15,13 +15,9 @@ public class InventarioClient {
     // La URL de tu microservicio que ya está corriendo
     private final String INVENTARIO_URL = "http://localhost:8081/api/productos";
 
-    public List<ProductoDTO> buscarProducto(String nombre) {
-        // Armamos la URL exacta: http://localhost:8081/api/productos/buscar?nombre=tomate
-        String url = INVENTARIO_URL + "/buscar?nombre=" + nombre;
-        
-        // Hacemos la petición GET y mapeamos la respuesta al DTO
-        ProductoDTO[] respuesta = restTemplate.getForObject(url, ProductoDTO[].class);
-        
+    public List<ProductoDTO> obtenerCatalogoCompleto() {
+        // Llama a http://localhost:8081/api/productos para traer todo el arreglo
+        ProductoDTO[] respuesta = restTemplate.getForObject(INVENTARIO_URL, ProductoDTO[].class);
         return Arrays.asList(respuesta);
     }
 }
