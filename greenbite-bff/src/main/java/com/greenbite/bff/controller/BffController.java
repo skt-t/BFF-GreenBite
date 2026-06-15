@@ -21,9 +21,9 @@ public class BffController {
         this.authClient = authClient;
     }
 
-    @GetMapping("/catalogo")
-    public List<ProductoDTO> listarCatalogoCompleto() {
-        return inventarioClient.obtenerCatalogoCompleto();
+    @GetMapping("/catalogo/buscar")
+    public List<ProductoDTO> buscarEnCatalogo(@RequestParam String nombre) {
+        return inventarioClient.buscarProducto(nombre);
     }
 
     @PostMapping("/registro")

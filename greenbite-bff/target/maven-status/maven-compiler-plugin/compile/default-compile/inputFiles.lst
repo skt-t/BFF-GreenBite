@@ -1,6 +1,6 @@
-/home/scott/Escritorio/Repos/BFF-GreenBite/greenbite-bff/src/main/java/com/greenbite/bff/controller/BffController.java
-/home/scott/Escritorio/Repos/BFF-GreenBite/greenbite-bff/src/main/java/com/greenbite/bff/client/InventarioClient.java
-/home/scott/Escritorio/Repos/BFF-GreenBite/greenbite-bff/src/main/java/com/greenbite/bff/App.java
-/home/scott/Escritorio/Repos/BFF-GreenBite/greenbite-bff/src/main/java/com/greenbite/bff/client/AuthClient.java
-/home/scott/Escritorio/Repos/BFF-GreenBite/greenbite-bff/src/main/java/com/greenbite/bff/dto/UsuarioDTO.java
-/home/scott/Escritorio/Repos/BFF-GreenBite/greenbite-bff/src/main/java/com/greenbite/bff/dto/ProductoDTO.java
+C:\Users\ruzbe\OneDrive\Desktop\BFF-GreenBite\greenbite-bff\src\main\java\com\greenbite\bff\controller\BffController.java
+C:\Users\ruzbe\OneDrive\Desktop\BFF-GreenBite\greenbite-bff\src\main\java\com\greenbite\bff\dto\UsuarioDTO.java
+C:\Users\ruzbe\OneDrive\Desktop\BFF-GreenBite\greenbite-bff\src\main\java\com\greenbite\bff\App.java
+C:\Users\ruzbe\OneDrive\Desktop\BFF-GreenBite\greenbite-bff\src\main\java\com\greenbite\bff\client\InventarioClient.java
+C:\Users\ruzbe\OneDrive\Desktop\BFF-GreenBite\greenbite-bff\src\main\java\com\greenbite\bff\client\AuthClient.java
+C:\Users\ruzbe\OneDrive\Desktop\BFF-GreenBite\greenbite-bff\src\main\java\com\greenbite\bff\dto\ProductoDTO.java
